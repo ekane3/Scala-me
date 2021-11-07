@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\ECOLE\Functional programming with scala\Scala me\src\main\scala\fileReader\service\CSV.scala:12:61: value of is not a member of object java.nio.file.Path[0m
+[0m[[0m[31merror[0m] [0m[0m    val (parsedLine, invalidLine) = Option(Files.lines(Path.of(s"src/main/data/$fileName")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\ECOLE\Functional programming with scala\Scala me\src\main\scala\fileReader\service\CSV.scala:21:27: value flatten is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m    ReadResult(parsedLine.flatten, invalidLine.size)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\ECOLE\Functional programming with scala\Scala me\src\main\scala\fileReader\service\CSV.scala:21:48: value size is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m    ReadResult(parsedLine.flatten, invalidLine.size)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
