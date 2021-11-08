@@ -1,4 +1,3 @@
-## Authors and Contributors : *Emile*
 ### Language: Scala
 
 <br>
